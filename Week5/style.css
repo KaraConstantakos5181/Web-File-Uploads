@@ -1,0 +1,64 @@
+body {
+  font-family: arial;
+  font-size: 2vw;
+  font-weight: 100;
+
+}
+
+p  {
+  font-size: 20px;
+}
+
+h1 {
+  border: soild grey 3px;
+  background-color: rgb(green);
+  margin-left: 10px;
+  font-family:"Koh Santepheap";
+}
+
+
+.grey
+{
+  color: rgb(100,100,100);
+}
+
+.background
+{
+  background-color: rgb(225, 225,225);
+}
+
+p.background {
+  color:red;
+}
+
+#sit{
+  color:blue;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+/* #dotted{
+  border:soild rgb(225,225,225) 1px ;
+}
+#dashed{
+  border:dashed rgb(225,225,225) 8px ;
+}
+#soild{
+  border:soild rgb(225,225,225) 1px ;
+}
+#double{
+  border:soild rgb(225,225,225) 1px ;
+} */
+
+#two {
+  border: soild black 1px;
+  background-color: blue;
+  /* padding: top right bottom left ; */
+  padding: 30px 55px 30px 9px;
+  margin: 55px 30px;
+}
+
+section{
+  border: soild black 5px;
+  margin:0px;
+}
