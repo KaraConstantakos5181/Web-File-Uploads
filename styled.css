@@ -14,12 +14,13 @@ h1{
   background-color: rgb(180,230,240);
   margin-left: 1px;
 }
-
-.into{
+h3{
   font-size: 3vw;
+  text-align:center;
   font-weight:10;
   font-family:Optima
 }
+
 .intro{
   font-size: 25px;
   font-weight:lighter;
@@ -43,10 +44,6 @@ h1{
   font-family:Optima;
   font-size: 20px;
   padding-left: 40px
-}
-
-section{
-  border: soild black 5px
 }
 #emph{
   font-weight:100;
