@@ -1,0 +1,51 @@
+.header{
+  font-family:arial;
+  font-size: 2vw;
+  font-weight:10;
+  text-align:center;
+  border:soild
+}
+body{
+  background-color: rgb(173,216,230);
+  color: rgb(64,64,64)
+}
+h1{
+  border:solid white 5px;
+  background-color: rgb(180,230,240);
+  margin-left: 1px;
+}
+.into{
+  font-size: 3vw;
+  font-weight:10;
+  font-family:Oswald
+
+}
+.intro{
+  font-size: 25px;
+  font-weight:lighter;
+  font-family:serif;
+}
+#pronouns{
+  font-weight:lighter;
+  color: white;
+  font-size: 30px;
+  font-family:cursive;
+}
+
+#paraone{
+  color: grey;
+  font-family:sans-serif;
+  font-size: 20px;
+  padding-left: 40px;
+  padding: 20px
+}
+#paratwo{
+  color: grey;
+  font-family:sans-serif;
+  font-size: 20px;
+  padding-left: 40px
+}
+
+section{
+  border: soild black 5px
+}
