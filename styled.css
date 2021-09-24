@@ -53,3 +53,10 @@ h3{
 #strike{
   text-decoration: line-through;
 }
+h4{
+  font-weight:lighter;
+  font-family:Optima;
+  color: white;
+  font-size: 20px;
+  text-align:center;
+}
