@@ -48,3 +48,7 @@ h1{
 section{
   border: soild black 5px
 }
+#pronouns{
+  font-weight:lighter;
+  font-family:cursive;
+}
