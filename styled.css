@@ -1,62 +1,93 @@
-.header{
-  font-family:arial;
-  font-size: 2vw;
-  font-weight:10;
+
+body{
+  padding:0px;
+  margin: 0px;
+  background-color: rgb(135,195,240);
+  font-family:"Open Sans";
+}
+p{
+  font-family:"Open Sans" ;
+  color:rgb(252,244,221);
+}
+#HeadSite{
+  font-family:Prata;
+  font-size: 5vw;
   text-align:center;
+  overflow:hidden;
+  padding:0px;
+  margin: 0px;
   border:soild
 }
-body{
-  background-color: rgb(173,216,230);
-  color: rgb(64,64,64)
-}
-h1{
-  border:solid white 5px;
-  background-color: rgb(180,230,240);
-  margin-left: 1px;
-}
-h3{
-  font-size: 3vw;
-  text-align:center;
-  font-weight:10;
-  font-family:Optima
+#selfimg{
+  width:250px;
+  height: 295px;
+  position;relative;
 }
 
+h1{
+  border:solid white 5px;
+  background-color: rgb(252,244,221);
+  margin-left: 1px;
+  color:rgb(244,204,46);
+}
+h5, #myself{
+  color:rgb(40,158,242)
+}
 .intro{
   font-size: 25px;
   font-weight:lighter;
-  font-family:Optima;
+  text-align:center;
+  font-family:"Open Sans";
 }
+
 #pronouns{
-  font-weight:lighter;
-  color: white;
-  font-size: 30px;
-  font-family:cursive;
+  color:rgb(255,204,56);
+  background-color: rgb(40,158,242);
+  font-family:Open Sans;
 }
 
 #paraone{
-  color: grey;
-  font-family:Optima;
+  color: rgb(255,204,56);
+  font-family:"Open+Sans";
+  font-size: 35px;
+  margin-left: 7vw;
+  margin-right: 3vw;
+}
+
+#learn{
+  color: rgb(255,209,236);
+  font-family:"Open+Sans";
   font-size: 20px;
-  padding-left: 40px;
+  margin-left: 1vw;
+  margin-right: .5vw;
 }
 #paratwo{
-  color: grey;
-  font-family:Optima;
+  color:rgb(255,204,56);
+  font-family: "Open Sans";
   font-size: 20px;
-  padding-left: 40px
+  margin-left: 11vw;
+  margin-right: 7vw;
 }
-#emph{
-  font-weight:100;
-  font-size: 20px;
-  font-style: italic;
-}
+
 #strike{
   text-decoration: line-through;
 }
-h4{
+h3{
   font-weight:lighter;
-  font-family:Optima;
-  color: white;
+  font-family:"Playfair Display";
+  color:rgb(252,244,221);
+  background-color: rgb(255,204,56);
   font-size: 20px;
   text-align:center;
+}
+.bullets{
+  font-weight:lighter;
+  font-family:"Playfair Display";
+  color: rgb(255,209,236);
+  font-size: 20px;
+}
+.emph{
+  font-weight:100;
+  font-size: 20px;
+  font-style: italic;
 }
