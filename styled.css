@@ -21,7 +21,30 @@ p{
 #selfimg{
   width:250px;
   height: 295px;
-  position;relative;
+  position:relative;
+}
+
+#meFacts{
+  font-size: 20px;
+  font-weight:lighter;
+  text-align:center;
+  font-family:"Prata";
+  color:#FCF4DD
+}
+button{
+  font-family:"Open Sans";
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  margin-top: 1vh;
+  position:relative;
+  background-color: #7FADA5;
+  color:black
+}
+button:hover{
+  border:white solid 3px;
+}
+button:active{
+  color:#4a4c4d;
 }
 
 h1{

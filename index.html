@@ -16,6 +16,8 @@
   <section id= "HeadSite">
     <h1 > Kara Constantakos Portfolio </h1>
       <img alt="photo of me" src="Assets/selfP.jpg" id="selfimg" >
+      <p id="meFacts"> Click to Find out facts about me! </p>
+      <button id="newquote"> Click Me </button>
   </section>
 
   <section class="intro">
@@ -41,6 +43,20 @@
     <h3> Also here is a link to <a href="EncyclopediaPage/index.html" target="_blank" > my enclopedidia page </a> for you! </h3>
   </section>
 
+  <script>
+    const quotes = ["I'm 5'1.","I have 2 dogs.","I have 2 horses.","I love hiking, siking, and outdoor activites.","I have 1 sister.","I am from Florida.","I am 21."];
+    let quotecount = 0;
+
+    document.getElementById("newquote").addEventListener("click", buttonClicked);
+    function buttonClicked(){
+      console.log(quotes[quotecount]);
+      document.getElementById("meFacts").innerHTML = quotes[quotecount];
+      if(quotecount >= 6){
+        quotecount = 0;
+      }else{quotecount ++;}
+    }
+
+ </script>
 </body>
 
 </html>
