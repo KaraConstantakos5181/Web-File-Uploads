@@ -1,0 +1,63 @@
+body{
+  padding: 0px;
+  margin:0px;
+}
+
+p{
+  color:grey;
+  font-famiy:"Bebas Neue";
+  font-size: 40px
+}
+
+h1, h2{
+  color:#0c17ab;
+  font-family: "Bebas Neue";
+  font-size: 80px;
+}
+
+#header{
+  width:100vw;
+  height: 80vh;
+  overflow: hidden;
+  padding: 0px;
+  margin:0px;
+}
+
+#myphotoo{
+  width:130vw;
+  position:relative;
+  bottom: 380px;
+  right:80px;
+}
+
+h1{
+  z-index:1;
+  position:relative;
+  font-size: 7vw;
+  top: 8vh;
+  margin:0 0 0 26vw;
+  color:white;
+}
+
+#sectionOne, #three{
+  margin-left: 7vw;
+  margin-right: 3vw;
+  margin-top:2vw;
+}
+
+button{
+  background-color: #697c8a;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  margin:10px;
+  padding: 7px 15px;
+}
+
+button:active{
+  background-color: blue;
+  color:white;
+}
+
+button:hover{
+  border:dashed black 3px;
+}

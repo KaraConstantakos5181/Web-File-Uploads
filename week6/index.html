@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Week 6 </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue"
+</head>
+
+<body>
+  <section id="header">
+    <h1 id="siteText"> Welcome to my site! </h1>
+    <img alt="myphoto" src="../Assets/4.jpg" id="myphotoo">
+  </section>
+
+  <section id="sectionOne">
+    <h2> My Photography </h2>
+    <p> I have been doing photography for many years. I have won many scholastic art awards. I love taking photos of places, people, and pretty much everything! </p>
+  </section>
+
+
+  <section id="three" >
+    <h2> Change it up! </h2>
+    <button id="mybutton"> Click this button </button>
+  </section>
+
+<script>
+  document.getElementById("mybutton").addEventListener("click",  buttonOne);
+  document.getElementById("header").addEventListener("click", photoClicked);
+
+  function photoClicked(){
+    alert("You clicked on my photo");
+  }
+
+  function buttonOne(){
+    alert("you pushed the button!");
+    document.getElementById("three").style.backgroundColor = "skyblue";
+  }
+</script>
+
+</body>
+</html>
