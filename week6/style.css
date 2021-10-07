@@ -31,19 +31,19 @@ h2{
 }
 
 #myphotoo{
-  width:130vw;
+  width:125vw;
   position:relative;
-  bottom: 380px;
-  right:80px;
+  bottom: 180px;
+  right:280px;
 }
 
 h1{
   z-index:1;
   position:relative;
   font-size: 7vw;
-  top: 8vh;
+  top: 3vh;
   margin:0 0 0 19vw;
-  color:white;
+  color:black;
 }
 
 #sectionOne, #three{
@@ -61,10 +61,10 @@ button{
 }
 
 button:active{
-  background-color: blue;
+  background-color: black;
   color:white;
 }
 
 button:hover{
-  border:dashed black 3px;
+  border:solid #2e8cd1 4px;
 }
