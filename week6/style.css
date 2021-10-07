@@ -6,13 +6,19 @@ body{
 p{
   color:grey;
   font-famiy:"Bebas Neue";
-  font-size: 40px
+  font-size: 40px;
 }
 
-h1, h2{
-  color:#0c17ab;
-  font-family: "Bebas Neue";
+h1{
+  color:#2e8cd1;
+  font-family: "Lora";
   font-size: 80px;
+}
+
+h2{
+  color:#2e8cd1;
+  font-family: "Lato";
+  font-size: 60px;
 }
 
 #header{
@@ -21,6 +27,7 @@ h1, h2{
   overflow: hidden;
   padding: 0px;
   margin:0px;
+  font-family: "Lora"
 }
 
 #myphotoo{
@@ -35,7 +42,7 @@ h1{
   position:relative;
   font-size: 7vw;
   top: 8vh;
-  margin:0 0 0 26vw;
+  margin:0 0 0 19vw;
   color:white;
 }
 
