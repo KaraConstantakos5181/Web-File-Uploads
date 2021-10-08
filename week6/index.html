@@ -27,10 +27,10 @@
 
 <script>
   document.getElementById("mybutton").addEventListener("click",  buttonOne);
-  document.getElementById("header").addEventListener("click", photoClicked);
+  document.getElementById("sectionOne").addEventListener("click", changePara);
 
-  function photoClicked(){
-    alert("You clicked on my photo");
+  function changePara(){
+    document.getElementById("siteText").style.color = "#697c8a";
   }
 
   function buttonOne(){
