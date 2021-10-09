@@ -15,22 +15,25 @@
   </section>
 
   <section id="sectionOne">
-    <h2> My Photography </h2>
+    <h2 id="h1"> My Photography </h2>
     <p> I have been doing photography for many years. I have won many scholastic art awards. I love taking photos of places, people, and pretty much everything! </p>
+    <button id="colorbutton"> Text Color Change </button>
   </section>
 
 
   <section id="three" >
-    <h2> Change it up! </h2>
+    <h2 id="h2"> Change it up! </h2>
     <button id="mybutton"> Click this button </button>
   </section>
 
 <script>
   document.getElementById("mybutton").addEventListener("click",  buttonOne);
-  document.getElementById("sectionOne").addEventListener("click", changePara);
+  document.getElementById("colorbutton").addEventListener("click", colorChange);
 
-  function changePara(){
-    document.getElementById("siteText").style.color = "#697c8a";
+  function colorChange(){
+    document.getElementById("siteText").style.color = "#20394d";
+    document.getElementById("h1").style.color = "#20394d";
+    document.getElementById("h2").style.color = "#20394d"
   }
 
   function buttonOne(){
