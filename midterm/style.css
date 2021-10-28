@@ -1,0 +1,33 @@
+#dofweek{
+  display:flex;
+  margin: 20vh 10vw 0 10vw;
+  /* top,right,botom,left */
+}
+
+.day{
+  flex-grow: 1;
+  background-color: lightgrey;
+  height:100;
+  border: 1px solid #aaa;
+  background-color: #EAECEF;
+}
+ .Week{
+  flex-grow:1;
+  width:auto;
+  max-width: 50%;
+}
+
+#TueTwo, #WedThree, #ThuFour, #FriFive, #SatSix, #SunSeven{
+  display:none;
+}
+
+h2{
+  margin-top: 28px;
+  padding-bottom: 0;
+  font-size: 1.8em;
+  margin-left: 30 px;
+}
+.active{
+  background-color: white;
+  border-bottom: none;
+}
