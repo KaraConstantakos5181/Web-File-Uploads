@@ -1,0 +1,86 @@
+h1{
+  border:solid #F5D2D3 8px;
+  font-family:"Prata";
+  font-size: 50px;
+  color:#F8F4F9;
+  background-color: #9AB7D3;
+  text-align:center;
+}
+body{
+  padding:0px;
+  margin: 0px;
+  background-color: #F8F4F9;
+  position:relative;
+  font-family:"Open Sans";
+}
+
+#SCMPlan{
+  font-size: 20px;
+  font-weight:lighter;
+  text-align:center;
+  font-family:"Open Sans";
+  color:#6B4B3E
+}
+
+#monh2{
+  position:relative;
+  margin-left: 21vw;
+  margin-top: 8vh;
+  font-family:"Prata";
+  font-size: 30px;
+  color:#6B4B3E
+}
+#wedh2{
+  position:relative;
+  margin-left: 30vw;
+  margin-top: 8vh;
+  font-family:"Prata";
+  font-size: 30px;
+  color:#6B4B3E
+}
+#frih2{
+  position:relative;
+  margin-left: 25vw;
+  margin-top: 8vh;
+  font-family:"Prata";
+  font-size: 30px;
+  color:#6B4B3E
+}
+
+.allInfo{
+  position:relative;
+  margin-left: 10vw;
+  margin-top: 5vh;
+  color:#6B4B3E;
+  font-size: 20px;
+
+}
+#wedimg{
+  width:250px;
+  height: 295px;
+  position:relative;
+}
+button{
+  font-family:"Open Sans";
+  font-size:20px;
+  font-weight:lighter;
+  text-align:center;
+  padding: 1vh 3vw;
+  margin-top: 1vh;
+  position:relative;
+  background-color: #9AB7D3;
+  border-color:#F8F4F9;
+  color:#F8F4F9;
+}
+
+button:hover{
+  border:#F5D2D3 solid 4px;
+  font-weight:bolder;
+}
+button:active{
+  color:#F5D2D3;
+}
+
+#moninfo,#tuesinfo,#wedinfo,#thursinfo,#friinfo,#satinfo,#suninfo{
+  display:none;
+}
