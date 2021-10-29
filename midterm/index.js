@@ -12,12 +12,12 @@ function monClicked(){
     monInform.style.display ='block'; //shows info
   }
   //hide all other info while showing monday info
-  document.getElementById('tuesinfo').style.display = 'none';
-  document.getElementById('wedinfo').style.display = 'none';
-  document.getElementById('thursinfo').style.display = 'none';
-  document.getElementById('friinfo').style.display = 'none';
-  document.getElementById('satinfo').style.display = 'none';
-  document.getElementById('suninfo').style.display = 'none';
+  // document.getElementById('tuesinfo').style.display = 'none';
+  // document.getElementById('wedinfo').style.display = 'none';
+  // document.getElementById('thursinfo').style.display = 'none';
+  // document.getElementById('friinfo').style.display = 'none';
+  // document.getElementById('satinfo').style.display = 'none';
+  // document.getElementById('suninfo').style.display = 'none';
 }
 
 //Tuesday
@@ -32,12 +32,12 @@ function tuesClicked(){
   else{
     tuesInform.style.display ='block';
   }
-  document.getElementById('moninfo').style.display = 'none';
-  document.getElementById('wedinfo').style.display = 'none';
-  document.getElementById('thursinfo').style.display = 'none';
-  document.getElementById('friinfo').style.display = 'none';
-  document.getElementById('satinfo').style.display = 'none';
-  document.getElementById('suninfo').style.display = 'none';
+  // document.getElementById('moninfo').style.display = 'none';
+  // document.getElementById('wedinfo').style.display = 'none';
+  // document.getElementById('thursinfo').style.display = 'none';
+  // document.getElementById('friinfo').style.display = 'none';
+  // document.getElementById('satinfo').style.display = 'none';
+  // document.getElementById('suninfo').style.display = 'none';
 }
 
 //Wednesday
@@ -53,12 +53,12 @@ function wedClicked(){
   else{
     wedInform.style.display ='block';
   }
-  document.getElementById('moninfo').style.display = 'none';
-  document.getElementById('tuesinfo').style.display = 'none';
-  document.getElementById('thursinfo').style.display = 'none';
-  document.getElementById('friinfo').style.display = 'none';
-  document.getElementById('satinfo').style.display = 'none';
-  document.getElementById('suninfo').style.display = 'none';
+  // document.getElementById('moninfo').style.display = 'none';
+  // document.getElementById('tuesinfo').style.display = 'none';
+  // document.getElementById('thursinfo').style.display = 'none';
+  // document.getElementById('friinfo').style.display = 'none';
+  // document.getElementById('satinfo').style.display = 'none';
+  // document.getElementById('suninfo').style.display = 'none';
 }
 
 //Thursday
@@ -73,13 +73,13 @@ function thurClicked(){
   else{
     thurInform.style.display ='block';
   }
-
-  document.getElementById('moninfo').style.display = 'none';
-  document.getElementById('tuesinfo').style.display = 'none';
-  document.getElementById('wedinfo').style.display = 'none';
-  document.getElementById('friinfo').style.display = 'none';
-  document.getElementById('satinfo').style.display = 'none';
-  document.getElementById('suninfo').style.display = 'none';
+  //
+  // document.getElementById('moninfo').style.display = 'none';
+  // document.getElementById('tuesinfo').style.display = 'none';
+  // document.getElementById('wedinfo').style.display = 'none';
+  // document.getElementById('friinfo').style.display = 'none';
+  // document.getElementById('satinfo').style.display = 'none';
+  // document.getElementById('suninfo').style.display = 'none';
 }
 
 //Friday
@@ -95,12 +95,12 @@ function friClicked(){
     friInform.style.display ='block';
   }
 
-  document.getElementById('moninfo').style.display = 'none';
-  document.getElementById('tuesinfo').style.display = 'none';
-  document.getElementById('wedinfo').style.display = 'none';
-  document.getElementById('thursinfo').style.display = 'none';
-  document.getElementById('satinfo').style.display = 'none';
-  document.getElementById('suninfo').style.display = 'none';
+  // document.getElementById('moninfo').style.display = 'none';
+  // document.getElementById('tuesinfo').style.display = 'none';
+  // document.getElementById('wedinfo').style.display = 'none';
+  // document.getElementById('thursinfo').style.display = 'none';
+  // document.getElementById('satinfo').style.display = 'none';
+  // document.getElementById('suninfo').style.display = 'none';
 }
 
 //Saturday
@@ -116,12 +116,12 @@ function satClicked(){
     satInform.style.display ='block';
   }
 
-  document.getElementById('moninfo').style.display = 'none';
-  document.getElementById('tuesinfo').style.display = 'none';
-  document.getElementById('wedinfo').style.display = 'none';
-  document.getElementById('thursinfo').style.display = 'none';
-  document.getElementById('friinfo').style.display = 'none';
-  document.getElementById('suninfo').style.display = 'none';
+  // document.getElementById('moninfo').style.display = 'none';
+  // document.getElementById('tuesinfo').style.display = 'none';
+  // document.getElementById('wedinfo').style.display = 'none';
+  // document.getElementById('thursinfo').style.display = 'none';
+  // document.getElementById('friinfo').style.display = 'none';
+  // document.getElementById('suninfo').style.display = 'none';
 }
 
 //Sunday
@@ -136,10 +136,10 @@ function sunClicked(){
   else{
     sunInform.style.display ='block';
   }
-  document.getElementById('moninfo').style.display = 'none';
-  document.getElementById('tuesinfo').style.display = 'none';
-  document.getElementById('wedinfo').style.display = 'none';
-  document.getElementById('thursinfo').style.display = 'none';
-  document.getElementById('friinfo').style.display = 'none';
-  document.getElementById('satinfo').style.display = 'none';
+  // document.getElementById('moninfo').style.display = 'none';
+  // document.getElementById('tuesinfo').style.display = 'none';
+  // document.getElementById('wedinfo').style.display = 'none';
+  // document.getElementById('thursinfo').style.display = 'none';
+  // document.getElementById('friinfo').style.display = 'none';
+  // document.getElementById('satinfo').style.display = 'none';
 }

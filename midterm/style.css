@@ -97,3 +97,6 @@ button:hover{
 button:active{
   color:#F5D2D3;
 }
+#moninfo,#tuesinfo,#wedinfo,#thursinfo,#friinfo,#satinfo,#suninfo{
+  display:none;
+}
