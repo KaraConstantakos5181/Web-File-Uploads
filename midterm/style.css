@@ -23,6 +23,7 @@ body{
 }
 #SCMPlan{
   font-size: 25px;
+  margin-top: 1vw;
   font-weight:lighter;
   text-align:center;
   font-family:"Open Sans";
@@ -36,7 +37,7 @@ body{
   font-family:"Open Sans";
   color:#6B4B3E;
   margin-bottom: -.05vw;
-  margin-top: -2vw;
+  margin-top: 1vw;
 }
 #monh2{
   position:relative;
