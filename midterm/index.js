@@ -4,6 +4,7 @@ document.getElementById("Monday").addEventListener("click", monClicked);
 function monClicked(){
   monInform = document.getElementById('moninfo');
   displayInfo = monInform.style.display;
+  console.log("hello");
 
   if (displayInfo == 'block'){
     monInform.style.display = 'none'; //hides info

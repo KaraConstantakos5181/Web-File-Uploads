@@ -13,18 +13,38 @@ body{
   position:relative;
   font-family:"Open Sans";
 }
+
+#weblink{
+  font-size: 15px;
+  margin-top: -2vw;
+  text-align:center;
+  font-family:"Open Sans";
+  color:#6B4B3E
+}
 #SCMPlan{
-  font-size: 30px;
+  font-size: 25px;
+  margin-top: -2vw;
   font-weight:lighter;
   text-align:center;
   font-family:"Open Sans";
   color:#6B4B3E
 }
-#weblink{
-  font-size: 30px;
+#SCMPlan2{
+  font-size: 25px;
+  margin-top: -2.5vw;
+  font-weight:lighter;
   text-align:center;
   font-family:"Open Sans";
   color:#6B4B3E
+}
+#getStarted{
+  font-size: 30px;
+  font-weight:lighter;
+  text-align:center;
+  font-family:"Open Sans";
+  color:#6B4B3E;
+  margin-bottom: -.05vw;
+  margin-top: -2vw;
 }
 #monh2{
   position:relative;
