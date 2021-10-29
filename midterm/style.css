@@ -15,16 +15,21 @@ body{
 }
 
 #SCMPlan{
-  font-size: 20px;
+  font-size: 30px;
   font-weight:lighter;
   text-align:center;
   font-family:"Open Sans";
   color:#6B4B3E
 }
-
+#weblink{
+  font-size: 30px;
+  text-align:center;
+  font-family:"Open Sans";
+  color:#6B4B3E
+}
 #monh2{
   position:relative;
-  margin-left: 21vw;
+  margin-left: 15vw;
   margin-top: 8vh;
   font-family:"Prata";
   font-size: 30px;
@@ -40,7 +45,7 @@ body{
 }
 #frih2{
   position:relative;
-  margin-left: 25vw;
+  margin-left: 20vw;
   margin-top: 8vh;
   font-family:"Prata";
   font-size: 30px;
@@ -52,14 +57,31 @@ body{
   margin-left: 10vw;
   margin-top: 5vh;
   color:#6B4B3E;
-  font-size: 20px;
+  font-size: 28px;
 
 }
-#wedimg{
-  width:250px;
-  height: 295px;
+#wedimg,#monimg,#tuesimg,#thursimg,#friimg,#satimg,#sunimg{
+  width:320px;
+  height: 260px;
+  padding-left: 26.4vw;
+  padding-bottom: 5vh;
   position:relative;
 }
+#tuesimg{
+  width:310px;
+  height: 260px;
+  padding-left: 26.4vw;
+  padding-bottom: 5vh;
+  position:relative;
+}
+#friimg{
+  width:320px;
+  height: 260px;
+  padding-left: 26.4vw;
+  padding-bottom: 5vh;
+  position:relative;
+}
+
 button{
   font-family:"Open Sans";
   font-size:20px;

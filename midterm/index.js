@@ -11,7 +11,7 @@ function monClicked(){
   else{
     monInform.style.display ='block'; //shows info
   }
-  //hide all other info 
+  //hide all other info while showing monday info
   document.getElementById('tuesinfo').style.display = 'none';
   document.getElementById('wedinfo').style.display = 'none';
   document.getElementById('thursinfo').style.display = 'none';
