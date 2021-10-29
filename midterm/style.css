@@ -23,20 +23,12 @@ body{
 }
 #SCMPlan{
   font-size: 25px;
-  margin-top: -2vw;
   font-weight:lighter;
   text-align:center;
   font-family:"Open Sans";
   color:#6B4B3E
 }
-#SCMPlan2{
-  font-size: 25px;
-  margin-top: -2.5vw;
-  font-weight:lighter;
-  text-align:center;
-  font-family:"Open Sans";
-  color:#6B4B3E
-}
+
 #getStarted{
   font-size: 30px;
   font-weight:lighter;
