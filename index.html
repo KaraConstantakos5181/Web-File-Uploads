@@ -3,21 +3,22 @@
 <html>
 <head>
   <title> Hello Me </title>
+  <!-- size of view port =size of divce, scale to 1, don't shrink to fit -->
+  <meta name="viewport" content"width=device-width, initial-scale=1, shrink-to-fit=no" />
   <link rel = "stylesheet" href="styled.css" >
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prata">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
 </head>
 
-
-
-<body>
+<body id="bodySite">
+  <!-- <nav>
+    <a href= "index.html"> Home </a>
+  </nav> -->
 
   <section id= "HeadSite">
     <h1 > Kara Constantakos Portfolio </h1>
-      <img alt="photo of me" src="Assets/selfP.jpg" id="selfimg" >
-      <p id="meFacts"> Click to Find out facts about me! </p>
-      <button id="newquote"> Click Me </button>
+    <img alt="photo of me" src="Assets/selfP.jpg" id="selfimg" >
   </section>
 
   <section class="intro">
@@ -25,11 +26,11 @@
   </section>
 
   <section id= "paraone">
-    <h5> My <span class="emph" >goals</span> for this course are: </h5>
+    <h5> My goals for this course are: </h5>
       <p id="learn"> Learn the basics of coding a website. Learn how to incorporate design into coding a website. Generate skills that I will be able to use moving forward in my career. </p>
   </section>
 
-  <section id="paratwo">
+  <section class="paratwo">
     <p id="myself"> A little bit about myself: </p>
     <ul class="bullets">
       <li> I am from <span class="emph" >Florida. </span></li>
@@ -39,25 +40,30 @@
     </ul>
   </section>
 
-  <section>
-    <h3> Here is a link to <a href="EncyclopediaPage/index.html" target="_blank" > my enclopedidia page </a> for you! </h3>
-    <h3> Here is a link to <a href="midterm/index.html" target="_blank" > my week 6 assignment </a> for you! </h3>
+  <section  style="text-align:center" >
+    <p id="click"> Click to find out facts about me! </p>
+    <button id="newquote"> Click Me </button>
+    <p id="meFacts"> I like photography </p>
   </section>
 
-  <script>
-    const quotes = ["I'm 5'1.","I have 2 dogs.","I have 2 horses.","I love hiking, siking, and outdoor activites.","I have 1 sister.","I am from Florida.","I am 21."];
-    let quotecount = 0;
+  <section id="text1">
+    <img  alt="photo of me" src="Assets/1.jpg" id="img1" >
+    <p > Here is a photo I took of a coco factory. </p>
+  </section>
+  <section id="text2">
+    <img alt="photo of me" src="Assets/2.jpg" id="img2" >
+    <p > Here is a photo I made with Cyanotype. </p>
+  </section>
+  <section id="text2">
+    <img alt="photo of me" src="Assets/3.jpg" id="img3" >
+    <p > Here is a film photo I took!. </p>
+  </section>
 
-    document.getElementById("newquote").addEventListener("click", buttonClicked);
-    function buttonClicked(){
-      console.log(quotes[quotecount]);
-      document.getElementById("meFacts").innerHTML = quotes[quotecount];
-      if(quotecount >= 6){
-        quotecount = 0;
-      } else{quotecount ++;}
-    }
+  <section id="links">
+    <h3> || Here is a link to <a href="EncyclopediaPage/index.html" target="_blank" > my enclopedidia page </a> for you! |   Here is a link to <a href="midterm/index.html" target="_blank" > my week 6 assignment </a> for you! || </h3>
+  </section>
 
- </script>
+<script type="text/javascript" src="index.js"> </script>
 </body>
 
 </html>
