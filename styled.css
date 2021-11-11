@@ -9,17 +9,51 @@
   #selfimg{
     display:block;
   }
-  #Headsite h1{
+  #HeadSite h1{
     font-size:50px;
   }
 
 }
-@media screen and (max-width:701px){
+@media screen and (max-width:710px){
   #selfimg{
     display:none;
   }
-  #Headsite h1{
+  #HeadSite h1{
     font-size:25px;
+  }
+  .intro h5 #myself {
+    font-size: 10px;
+  }
+  button{
+    font-family:"Open Sans";
+    font-size:25px;
+  }
+  #img1{
+    width:12px;
+    height: 24px;
+    display: grid;
+    }
+  #img2{
+    width:24px;
+    height: 12px;
+    display: grid;
+  }
+  #img3{
+    width:24px;
+    height: 12px;
+    display: grid;
+  }
+  .texts{
+    display:grid;
+    border-radius: 10px 10px 10px 100px;
+    background-color:#F8F4F9;
+    font-size:10px;
+  }
+  #text1, #text2, #text3{
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 50vw 40vw;
+    padding: 1vh 1vw;
   }
 }
 
@@ -38,7 +72,7 @@ body{
 }
 
 p{
-  font-family:"Open Sans" ;
+  font-family:"Open Sans";
   color:#6B4B3E
 }
 
@@ -48,7 +82,6 @@ p{
   overflow:hidden;
   padding:0px;
   margin: 0px;
-  border:soild;
 
 }
 
@@ -57,7 +90,7 @@ p{
   font-weight:lighter;
   text-align:center;
   font-family:"Prata";
-
+  margin-top: 5vh;
 }
 
 button{
@@ -66,12 +99,11 @@ button{
   font-weight:lighter;
   text-align:center;
   padding: 1vh 1vw;
-  margin-top: 1vh;
   position:relative;
   background-color: #9AB7D3;
   border-color:#F8F4F9;
   color:#F8F4F9;
-  margin-bottom: 10px;
+  margin-bottom: 5vh;
 }
 button:hover{
   border:#F5D2D3 solid 4px;
@@ -123,7 +155,7 @@ h5, #myself{
 .paratwo{
   font-family: "Open Sans";
   font-size: 20px;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 #strike{
@@ -159,28 +191,31 @@ h5, #myself{
 }
 
 #img1{
-  padding-left: 5vw;
+  padding-left: 12vw;
   width:240px;
   height: 295px;
   display: grid;
 }
 #img2{
-  padding-left: 3vw;
-  width:295px;
+  padding-left: 8vw;
+  width:300px;
   height: 240px;
   display: grid;
-  grid-template-columns: 60vw 10vw;
+
 }
 #img3{
-  padding-left: 3vw;
+  padding-left: 8vw;
   width:290px;
   height: 245px;
   display: grid;
-  grid-template-columns: 20vw 40vw;
+
+}
+.texts{
+  padding-top: 2.5vh;
 }
 #text1,#text2,#text3{
   font-size: 20px;
   display: grid;
   text-align: center;
-  grid-template-columns: 20vw 30vw;
+  grid-template-columns: 50vw 40vw;
 }
