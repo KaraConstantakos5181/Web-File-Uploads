@@ -1,0 +1,43 @@
+@media screen and (min-width:800px){
+
+}
+
+@media screen and (max-width:801px){
+  nav{
+    display:flex;
+    width: 48vw;
+    justify-content: right;
+    margin: 30px auto 30px calc(100% - 50vw);
+  }
+
+  nav a{
+    font-family: Rubik;
+    font-size: 10px;
+    margin-left: 50px;
+    color: #1f1b1b;
+  }
+}
+
+body{
+  margin: auto 0vw auto 0vw;
+}
+
+nav{
+  display:flex;
+  width: 48vw;
+  justify-content: right;
+  margin: 30px auto 30px calc(100% - 50vw);
+}
+
+nav a{
+  font-family: Rubik;
+  font-size: 25px;
+  margin-left: 50px;
+  color: #1f1b1b;
+}
+
+#headerimg{
+  object-fit:cover;
+  height: 70vh;
+  width: 100vw;
+}
