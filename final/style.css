@@ -1,10 +1,10 @@
-@media screen and (min-width:800px){
+@media screen and (min-width:700px){
   #hero h1{
     font-size: 60px;
   }
 }
 
-@media screen and (max-width:801px){
+@media screen and (max-width:701px){
   #hero h1{
     font-size: 30px;
   }
@@ -19,6 +19,13 @@
     height:auto;
   }
   .icon{
+    position:relative;
+    width: 20%;
+    margin-top: 10px;
+    height:20%;
+    height:auto;
+  }
+  .linked{
     position:relative;
     width: 20%;
     margin-top: 10px;
@@ -136,4 +143,9 @@ body{
   height:5vh;
   height:auto;
 
+}
+.linked{
+  max-width: 100%;
+  margin-left: 30px;
+  height:auto;
 }
