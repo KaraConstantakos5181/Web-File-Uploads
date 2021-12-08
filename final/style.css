@@ -8,7 +8,13 @@
     color:#b09176;
   }
 }
-
+#header h1{
+  z-index:1;
+  position: absolute;
+  margin-top:330px;
+  margin-left: 2px;
+  font-weight:bolder;
+}
 @media screen and (max-width:701px){
   nav a{
     font-family:Rubik;
@@ -18,6 +24,7 @@
     text-decoration:none;
     color:#b09176;
   }
+
 
   #header h1{
     font-size:30px;
@@ -49,6 +56,24 @@
     margin-top: 10px;
     height:20%;
     height:auto;
+  }
+  .image{
+    position:relative;
+    width: 20%;
+    margin-top: 10px;
+    height:20%;
+    height:auto;
+    float:left;
+
+  }
+  .descrip{
+    position:relative;
+    width: 20%;
+    margin-top: 10px;
+    height:20%;
+    height:auto;
+    text-align: center;
+    font-size: 50%;
   }
 }
 
@@ -84,20 +109,12 @@ h2{
   font-family:Karla;
   color:#b09176
 }
-p{
-  font-family:Rubik;
-}
+
 
 #index h2{
   font-size: 40px;
 }
-#header h1{
-  z-index:1;
-  position: absolute;
-  margin-top:330px;
-  margin-left: 2px;
-  font-weight:bolder;
-}
+
 body{
   margin: auto 0vw auto 0vw;
   margin-bottom: 50px;
@@ -134,9 +151,9 @@ body{
 }
 #links{
   display:grid;
-  grid-template-columns: 1fr 2fr ;
+  grid-template-columns: 1fr 1fr ;
   align-items: center;
-  max-width: 100%;
+  width:40vw;
   margin: 0 auto;
   font-family:"Rubik";
   color: #b09176;
@@ -146,10 +163,10 @@ body{
 .icon{
   max-width: 100%;
   margin-left: 50px;
-  padding: 10px 10px 10px 250px;
   width:5vw;
   height:5vh;
   height:auto;
+  justify-self: end;
 
 }
 .linked{
@@ -159,3 +176,31 @@ body{
 }
 
 /* projects.html */
+#projectitems{
+  display:grid;
+  grid-template-columns: 1fr 2fr ;
+  width:80vw;
+  padding: 10px;
+  padding-top: 30px;
+  margin: 0 auto;
+  font-family:"Rubik";
+  color: #b09176;
+  margin-top: 50px;
+}
+.image{
+  max-width: 100%;
+  width:100vw;
+  height:auto;
+  padding-bottom: 50px;
+  float:left;
+
+}
+.descrip{
+  max-width: 100%;
+  height:auto;
+  padding-left:20px;
+  text-align: center;
+}
+p{
+  font-family:Rubik;
+}
