@@ -1,9 +1,5 @@
-let projs = 4;
-let proj;
 
-for(i=0;i<projs;i++){
-  proj = 1+i;
-document.getElementById('projects').innerHTML += "<div class='port'> <img src='assets/projects/" + proj + ".jpg'" + "class='projectspic' id='proj" + proj+ "' /> </div>";
+document.getElementById('projects').innerHTML += "<div <img src='assets/" + proj + ".jpg'" + "class='projectspic' id='proj" + proj+ "' /> </div>";
 }
 
 let showInfo = false;
