@@ -89,7 +89,6 @@
 /* index.html */
 nav{
   background-color:#F5EFF3;
-  position:fixed;
   transition: top 0.5s;
   top:0;
   width:100%;
@@ -117,7 +116,7 @@ h1{
 }
 h2{
   font-family:Karla;
-  color:#b09176
+  color:#b09176;
 }
 
 
@@ -212,7 +211,25 @@ body{
     border-radius: 30px;
 }
 
+
 .buddha{
   background-color:#f5d0df;
   border-radius: 0px 8px 8px 8px;
+}
+
+button{
+  font-size:15px;
+  text-align:center;
+  background-color: #9AB7D3;
+  border-color:#F8F4F9;
+  color:#F8F4F9;
+  border-radius: 2px;
+}
+button:hover{
+  border:#f5a9c8;
+  background-color: #f5a9c8;
+  border-radius: 2px;
+}
+button:active{
+  color:#f5a9c8;
 }

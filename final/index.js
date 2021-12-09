@@ -1,19 +1,13 @@
+const quotes = ["assets/projects/first1.jpg","assets/projects/first2.jpg","assets/projects/first3.jpg","assets/projects/first4.jpg","assets/projects/first5.jpg"];
 
-document.getElementById('projects').innerHTML += "<div <img src='assets/" + proj + ".jpg'" + "class='projectspic' id='proj" + proj+ "' /> </div>";
-}
+let quotecount = 0;
 
-let showInfo = false;
-document.getElementById('projects').addEventListener("click", displayInfo);
+document.getElementById("newquote").addEventListener("click", buttonClicked);
 
-function displayInfo(){
-  document.getElementById('pInfo').style.display ="block";
-  document.getElementById('displayInfo').style.display = "block";
-  document.getElementById('displayInfo').addEventListener('click', clickOverImage);
-  showInfo = true;
-}
-
-function clickOverImage(){
-  document.getElementById('pInfo').style.display ="none";
-  document.getElementById('displayInfo').style.display = "none";
-  showInfo = false;
+function buttonClicked(){
+  console.log(quotes[quotecount]);
+  document.getElementById("qtext").innerHTML = quotes[quotecount];
+  if(quotecount >= 4){
+    quotecount = 0;
+  }else{quotecount ++;}
 }
