@@ -2,7 +2,7 @@ const photos = ["assets/projects/first1.jpg","assets/projects/first2.jpg","asset
 
 let photocount = 0;
 
-document.getElementById("newphoto").addEventListener("click", buttonClicked);
+document.getElementById("imgsection").innerHTML = "<img id='landPhoto' class='image' src=" + photos[photocount] + " ' >";
 
 function buttonClicked(){
   console.log(photos[photocount]);
