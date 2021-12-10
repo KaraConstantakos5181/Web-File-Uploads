@@ -2,11 +2,11 @@ const photos = ["assets/projects/first1.jpg","assets/projects/first2.jpg","asset
 
 let photocount = 0;
 
-document.getElementById("imgsection").innerHTML = "<img id='landPhoto' class='image' src=" + photos[photocount] + " ' >";
+document.getElementById("newphoto").addEventListener("click", buttonClicked);
 
 function buttonClicked(){
   console.log(photos[photocount]);
-  document.getElementById("landPhoto").innerHTML = photos[photocount];
+  document.getElementById("imgsection").innerHTML = "<img id='qtext' class='image' src=" + photos[photocount] + " ' >";
   if(photocount >= 4){
     photocount = 0;
   }else{photocount ++;}
