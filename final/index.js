@@ -1,13 +1,13 @@
-const quotes = ["assets/projects/first1.jpg","assets/projects/first2.jpg","assets/projects/first3.jpg","assets/projects/first4.jpg","assets/projects/first5.jpg"];
+const photos = ["assets/projects/first1.jpg","assets/projects/first2.jpg","assets/projects/first3.jpg","assets/projects/first4.jpg","assets/projects/first5.jpg"];
 
-let quotecount = 0;
+let photocount = 0;
 
-document.getElementById("newquote").addEventListener("click", buttonClicked);
+document.getElementById("newphoto").addEventListener("click", buttonClicked);
 
 function buttonClicked(){
-  console.log(quotes[quotecount]);
-  document.getElementById("qtext").innerHTML = quotes[quotecount];
-  if(quotecount >= 4){
-    quotecount = 0;
-  }else{quotecount ++;}
+  console.log(photos[photocount]);
+  document.getElementById("landPhoto").innerHTML = photos[photocount];
+  if(photocount >= 4){
+    photocount = 0;
+  }else{photocount ++;}
 }
