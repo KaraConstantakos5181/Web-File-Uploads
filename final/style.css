@@ -84,6 +84,18 @@
     font-size: 5px;
     width:auto;
   }
+  #newphoto{
+    font-size:6px;
+    width:100%;
+    text-align:center;
+    background-color: #9AB7D3;
+    border-color:#F8F4F9;
+    color:#F8F4F9;
+  }
+
+  #newphoto:active{
+    background-color:#f5a9c8;
+  }
 }
 
 /* index.html */
@@ -209,6 +221,7 @@ body{
     float:left;
     padding: 2px;
     border-radius: 30px;
+    transition: 1s ease;
 }
 
 
@@ -219,17 +232,19 @@ body{
 
 button{
   font-size:15px;
+  width:100%;
   text-align:center;
   background-color: #9AB7D3;
   border-color:#F8F4F9;
   color:#F8F4F9;
-  border-radius: 2px;
 }
-button:hover{
-  border:#f5a9c8;
-  background-color: #f5a9c8;
-  border-radius: 2px;
-}
+
 button:active{
-  color:#f5a9c8;
+  background-color:#f5a9c8;
+  color:#C6d7f5;
+}
+
+img{
+  animation-name: linear;
+  animation-duration: 2s;
 }
