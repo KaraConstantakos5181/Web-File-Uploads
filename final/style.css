@@ -34,6 +34,10 @@
   button:active{
     background-color:#f5a9c8;
   }
+  .descrip{
+    font-size: 20px;
+    font-family:"Rubik";
+  }
 }
 #header h1{
   z-index:1;
@@ -52,14 +56,14 @@
     color:#b09176;
   }
 
-  #header h1{
+  #header h1 {
     font-size:30px;
     margin-top:370px;
     margin-left:2px;
-}
+  }
 
-  #info,#explore h2{
-    font-size:10px;
+  .h2s{
+    font-size:30px;
   }
 
   #img {
@@ -96,6 +100,10 @@
     width:auto;
   }
 
+  .headerrr{
+    font-size: 10px;
+  }
+
   button {
     font-size:6px;
 
@@ -108,8 +116,12 @@
   button:active{
     background-color:#f5a9c8;
   }
+
 }
 
+p{
+    font-size:10px;
+  }
 /* index.html */
 nav{
   background-color:#F5EFF3;
@@ -143,8 +155,7 @@ h2{
   color:#b09176;
 }
 
-
-body h2{
+ h2{
   font-size: 40px;
 }
 
@@ -235,6 +246,7 @@ body{
     border-radius: 30px;
     transition: 1s ease;
 }
+
 
 
 .buddha{
