@@ -122,7 +122,14 @@
 p{
     font-size:10px;
     color:#b09176;
+    font-family:"Rubik";
+
   }
+
+.mmee{
+  font-size:20px;
+  font-family:Rubik;
+}
 /* index.html */
 nav{
   background-color:#F5EFF3;
@@ -247,7 +254,9 @@ body{
     border-radius: 30px;
     transition: 1s ease;
 }
-
+.descrip{
+  font-family: rubik;
+}
 
 
 .buddha{
