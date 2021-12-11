@@ -23,6 +23,17 @@
     padding-left:20px;
     font-size: 15px;
   }
+  button {
+    font-size:15px;
+    text-align:center;
+    background-color: #9AB7D3;
+    border-color:#F8F4F9;
+    color:#F8F4F9;
+  }
+
+  button:active{
+    background-color:#f5a9c8;
+  }
 }
 #header h1{
   z-index:1;
@@ -84,16 +95,17 @@
     font-size: 5px;
     width:auto;
   }
-  #newphoto{
+
+  button {
     font-size:6px;
-    width:100%;
+
     text-align:center;
     background-color: #9AB7D3;
     border-color:#F8F4F9;
     color:#F8F4F9;
   }
 
-  #newphoto:active{
+  button:active{
     background-color:#f5a9c8;
   }
 }
@@ -231,7 +243,6 @@ body{
 }
 
 button{
-  font-size:15px;
   width:100%;
   text-align:center;
   background-color: #9AB7D3;
@@ -245,6 +256,6 @@ button:active{
 }
 
 img{
-  animation-name: linear;
+  animation-name: bounce;
   animation-duration: 2s;
 }
